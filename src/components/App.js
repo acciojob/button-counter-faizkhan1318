@@ -7,7 +7,7 @@ const App = () => {
   const [count, setCount] = useState(0)
 
 
-  function btnClick(){
+  const btnClick=()=>{
     setCount(count+1)
   }
   return (
